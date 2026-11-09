@@ -1,0 +1,51 @@
+{
+  "updated_at": "2026-11-09T12:00:00+00:00",
+  "latest_local_state_mut_ts": "2026-11-09T12:00:00+00:00",
+  "latest_vault_sync_ts": "2026-11-09T12:00:00+00:00",
+  "vault_sources": {
+    "00000000-0000-4000-8000-000000000101": {
+      "label": "01_Operator_And_Counterweight_Spec.md",
+      "last_read_ts": "2026-11-09T12:00:00+00:00",
+      "last_sync_ts": "2026-11-09T12:00:00+00:00",
+      "read_sha256": "1010101010101010",
+      "sync_sha256": "1010101010101010",
+      "remote_drift_detected": false,
+      "last_conv_id": "genesis",
+      "last_tool": "kortex.get_source_content"
+    },
+    "00000000-0000-4000-8000-000000000102": {
+      "label": "02_Active_Operations_And_Sprint_Protocols.md",
+      "last_read_ts": "2026-11-09T12:00:00+00:00",
+      "last_sync_ts": "2026-11-09T12:00:00+00:00",
+      "read_sha256": "2020202020202020",
+      "sync_sha256": "2020202020202020",
+      "remote_drift_detected": false,
+      "last_conv_id": "genesis",
+      "last_tool": "kortex.get_source_content"
+    },
+    "00000000-0000-4000-8000-000000000103": {
+      "label": "03_Shared_Calendar_And_Comms_Governance.md",
+      "last_read_ts": "2026-11-09T12:00:00+00:00",
+      "last_sync_ts": "2026-11-09T12:00:00+00:00",
+      "read_sha256": "3030303030303030",
+      "sync_sha256": "3030303030303030",
+      "remote_drift_detected": false,
+      "last_conv_id": "genesis",
+      "last_tool": "kortex.get_source_content"
+    },
+    "00000000-0000-4000-8000-000000000104": {
+      "label": "04_Chronological_Changelog_Directives.md",
+      "last_read_ts": "2026-11-09T12:00:00+00:00",
+      "last_sync_ts": "2026-11-09T12:00:00+00:00",
+      "read_sha256": "4040404040404040",
+      "sync_sha256": "4040404040404040",
+      "remote_drift_detected": false,
+      "last_conv_id": "genesis",
+      "last_tool": "kortex.get_source_content"
+    }
+  },
+  "conv_reads": {},
+  "external_lookups": [],
+  "security_incidents": [],
+  "staged_replies": {}
+}

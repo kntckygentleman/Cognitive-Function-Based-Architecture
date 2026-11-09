@@ -1,0 +1,14 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Local runtime state and scratch artifacts
+state/.pre_tool_hashes.json
+scratch/
+
+# Environment and OS files
+.env
+.env.*
+.DS_Store

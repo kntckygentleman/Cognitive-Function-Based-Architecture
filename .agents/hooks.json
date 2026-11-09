@@ -1,0 +1,36 @@
+{
+  "claire-architecture-and-vault-guard": {
+    "enabled": true,
+    "SessionStart": [
+      {
+        "type": "command",
+        "command": "python3 .agents/scripts/claire_hooks.py SessionStart",
+        "timeout": 5
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "edit_file|write_file|run_command|call_mcp_tool",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 .agents/scripts/claire_hooks.py PreToolUse",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "edit_file|write_file|run_command|call_mcp_tool|invoke_subagent|mcp_gemini-api_gemini-api-docs_gemini_search_docs|mcp_gemini-api_gemini-api-docs_gemini_get_doc|search_web|read_url_content|search_marketplace",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 .agents/scripts/claire_hooks.py PostToolUse",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}
